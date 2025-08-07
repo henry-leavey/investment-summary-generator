@@ -1,6 +1,6 @@
 {
-  "name": "personal-portfolio",
-  "homepage": "https://henry-leavey.github.io/personal-portfolio/",
+  "name": "investment-summary-generator",
+  "homepage": "https://henry-leavey.github.io/investment-summary-generator/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
