@@ -1,0 +1,19 @@
+.sidebar {
+  background-color: #0d6efd; /* Bootstrap primary blue */
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-btn {
+  background: none;
+  border: none;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.sidebar-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
