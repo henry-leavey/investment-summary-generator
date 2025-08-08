@@ -1,32 +1,25 @@
 {
   "files": {
-    "main.css": "/investment-summary-generator/static/css/main.ad299d6a.css",
-    "main.js": "/investment-summary-generator/static/js/main.03c10ec1.js",
+    "main.css": "/investment-summary-generator/static/css/main.212fb61f.css",
+    "main.js": "/investment-summary-generator/static/js/main.fb7a7385.js",
     "static/js/453.96742b4b.chunk.js": "/investment-summary-generator/static/js/453.96742b4b.chunk.js",
-    "static/media/color-sharp2.png": "/investment-summary-generator/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
-    "static/media/project-img3.png": "/investment-summary-generator/static/media/project-img3.a210ee06eba36cc9b55f.png",
     "static/media/Portrait2.png": "/investment-summary-generator/static/media/Portrait2.d506cf0cce2fbb638ca3.png",
-    "static/media/project-img2.png": "/investment-summary-generator/static/media/project-img2.9f8e03310046157b3649.png",
-    "static/media/project-img4.png": "/investment-summary-generator/static/media/project-img4.9f74ef6a663fc48954d1.png",
     "static/media/banner-bg2.jpg": "/investment-summary-generator/static/media/banner-bg2.6a2dee411c9b64caf0c6.jpg",
     "static/media/CentraNo2-Bold.ttf": "/investment-summary-generator/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/investment-summary-generator/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/investment-summary-generator/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/investment-summary-generator/static/media/footer-bg.7bd67c0f73571d0acc02.png",
-    "static/media/project-img1.png": "/investment-summary-generator/static/media/project-img1.697ba6c6a864aa6eed26.png",
-    "static/media/contact-img.svg": "/investment-summary-generator/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
-    "static/media/project-img5.png": "/investment-summary-generator/static/media/project-img5.1cd03097f62cc1eb1396.png",
-    "static/media/logo.svg": "/investment-summary-generator/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
     "static/media/nav-icon3.svg": "/investment-summary-generator/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/logo.svg": "/investment-summary-generator/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
     "index.html": "/investment-summary-generator/index.html",
     "static/media/nav-icon1.svg": "/investment-summary-generator/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/investment-summary-generator/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.ad299d6a.css.map": "/investment-summary-generator/static/css/main.ad299d6a.css.map",
-    "main.03c10ec1.js.map": "/investment-summary-generator/static/js/main.03c10ec1.js.map",
+    "main.212fb61f.css.map": "/investment-summary-generator/static/css/main.212fb61f.css.map",
+    "main.fb7a7385.js.map": "/investment-summary-generator/static/js/main.fb7a7385.js.map",
     "453.96742b4b.chunk.js.map": "/investment-summary-generator/static/js/453.96742b4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad299d6a.css",
-    "static/js/main.03c10ec1.js"
+    "static/css/main.212fb61f.css",
+    "static/js/main.fb7a7385.js"
   ]
 }
