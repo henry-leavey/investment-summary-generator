@@ -1,25 +1,17 @@
 import React from "react";
 import { Navbar, Nav, Container, Image } from "react-bootstrap";
+import Portrait from "../assets/img/Portrait2.png";
+import { FaBell } from 'react-icons/fa';
 
 export const TopBar = () => {
   return (
-    <Navbar bg="light" expand="lg" className="shadow-sm px-4">
-      <Container fluid className="d-flex justify-content-between">
-        {/* Left Side - Notifications / Updates */}
-        <Nav className="align-items-center">
-          <span className="fw-bold me-4 text-dark">
-            📢 3 new earnings summaries available
-          </span>
-          <span className="fw-bold text-dark">
-            📈 Guidance trend changed for 5 companies
-          </span>
-        </Nav>
-
-        {/* Right Side - User Profile */}
-        <Nav className="align-items-center">
+    <Navbar bg="light" expand="lg" className="shadow-sm px-4 topbar">
+      <Container fluid className="d-flex">
+        <Nav className="align-items-center ms-auto">
+          <FaBell size={24} color="black"/>
           <span className="me-2 text-dark">Henry</span>
           <Image
-            src="src\assets\img\Portrait2.png"
+            src={Portrait}
             roundedCircle
             alt="User Avatar"
             style={{

@@ -18,35 +18,31 @@ import { TopBar } from './components/Topbar';
 function App() {
   return (
     <Container fluid>
+      <Sidebar />
+      <TopBar />
       <Row>
-        {/* Sidebar */}
-        <Col xs={12} md={1} className="p-0">
-          <Sidebar />
-        </Col>
-
         {/* Main Content */}
-        <Col xs={12} md={10} className="p-4">
-          <TopBar />
+        <Col xs={12} md={12} className="p-2 main-content">
           <Row>
             <Col md={12}>
               <SummaryMetrics />
             </Col>
           </Row>
 
-          <Row className="mt-4">
-            <Col md={6} className="mb-4">
+          <Row className="mt-1">
+            <Col md={6} className="mb-1">
               <QuickSummaryPreview />
             </Col>
-            <Col md={6} className="mb-4">
+            <Col md={6} className="mb-1">
               <SearchFilterPanel />
             </Col>
           </Row>
 
           <Row>
-            <Col md={6} className="mb-4">
+            <Col md={6} className="mb-1">
               <RecentSummaries />
             </Col>
-            <Col md={6} className="mb-4">
+            <Col md={6} className="mb-1">
               <TopMovers />
             </Col>
           </Row>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, Table, Badge } from 'react-bootstrap';
-import './RecentSummaries.css'; // Optional for hover styles
 
 const getBadgeVariant = (rating) => {
   switch (rating.toLowerCase()) {
