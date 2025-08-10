@@ -5,8 +5,8 @@ import { FaBell } from 'react-icons/fa';
 
 export const TopBar = () => {
   return (
-    <Navbar bg="light" expand="lg" className="shadow-sm px-4 topbar">
-      <Container fluid className="d-flex">
+    <Navbar bg="light" className="shadow topbar">
+      <Container fluid>
         <Nav className="align-items-center ms-auto">
           <FaBell size={24} color="black"/>
           <span className="me-2 text-dark">Henry</span>

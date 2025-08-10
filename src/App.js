@@ -1,56 +1,38 @@
-import React from 'react';
+import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { Sidebar } from "./components/Sidebar";
-import { NavBar } from "./components/NavBar";
-import { Banner } from "./components/Banner";
-import { SearchFilterPanel } from './components/SearchFilterPanel';
-import { RecentSummaries } from './components/RecentSummaries';
-import { TopMovers } from './components/TopMovers';
-import { SummaryMetrics } from './components/SummaryMetrics';
-import { QuickSummaryPreview } from './components/QuickSummaryPreview';
-import { Footer } from './components/Footer';
+import { TopBar } from "./components/Topbar";
 
-import { Container, Row, Col } from 'react-bootstrap';
-import { TopBar } from './components/Topbar';
+import { HomePage } from "./pages/HomePage";
+import { DocumentUploadPage } from "./pages/DocumentUploadPage";
 
 function App() {
   return (
-    <Container fluid>
-      <Sidebar />
-      <TopBar />
-      <Row>
-        {/* Main Content */}
-        <Col xs={12} md={12} className="p-2 main-content">
-          <Row>
-            <Col md={12}>
-              <SummaryMetrics />
-            </Col>
-          </Row>
+    <Router>
+      <div className="app-container">
+        <div className="sidebar">
+          <Sidebar />
+        </div>
 
-          <Row className="mt-1">
-            <Col md={6} className="mb-1">
-              <QuickSummaryPreview />
-            </Col>
-            <Col md={6} className="mb-1">
-              <SearchFilterPanel />
-            </Col>
-          </Row>
+        <div className="right-side">
+          <header className="topbar">
+            <TopBar />
+          </header>
 
-          <Row>
-            <Col md={6} className="mb-1">
-              <RecentSummaries />
-            </Col>
-            <Col md={6} className="mb-1">
-              <TopMovers />
-            </Col>
-          </Row>
-
-        </Col>
-      </Row>
-    </Container>
+          <main className="main-content">
+            <Routes>
+              <Route path="/investment-summary-generator" element={<HomePage />} />
+              <Route path="/investment-summary-generator/upload" element={<DocumentUploadPage />} />
+            </Routes>
+          </main>
+        </div>
+      </div>
+    </Router>
   );
 }
+
 
 export default App;
